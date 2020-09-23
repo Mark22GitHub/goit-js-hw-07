@@ -1,0 +1,36 @@
+ul {
+  list-style: none;
+}
+
+#gallery {
+  display: flex;
+}
+.itemGallery:not(:last-child) {
+  margin-right: 20px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+.js-msg-valid {
+  color: green;
+}
+.js-msg-invalid {
+  color: red;
+}
+
+/* _______________________
+img {
+  display: block;
+  margin: 20px auto;
+}
+_______________________ */
