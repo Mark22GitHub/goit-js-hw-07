@@ -1,0 +1,50 @@
+/* body { */
+/* display: flex; */
+
+/* height: 400vh;
+
+  position: relative;
+} */
+
+/* .cube {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  background-color: blue;
+  border-radius: 50px;
+} */
+
+/* .circle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  transform: translate(-150%, -150%); */
+/* background: aquamarine; */
+/* } */
+
+.card {
+  display: flex;
+  width: 100%;
+  /* margin: 0 auto; */
+  /* border: 1px solid; */
+  padding: 50px;
+  list-style: none;
+}
+
+.list {
+  position: relative;
+  height: 300px;
+
+  border: 1px solid;
+  margin-right: 20px;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.btn {
+  top: 1px;
+  left: 0;
+  position: absolute;
+  margin-bottom: 20px;
+}
